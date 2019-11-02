@@ -15,9 +15,11 @@ bool onWiFi = false;
 
 IPAddress ip;
 
+//gonna need some client stuff aren't we?
+const String CLIENT_ID = "";
+const String CLIENT_SEC = "";
+
 int numNetworks = WiFi.scanNetworks();
-const String CLIENT_ID = "4459e8653aa84ff1b7a455d15c7b1701";
-const String CLIENT_SEC = "61d004d4b4e843d3a2f09e72890e361b";
 String token = "";
 String userID = "";
 String playListID = "";
